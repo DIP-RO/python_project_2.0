@@ -17,7 +17,7 @@ def speech_recognition_for_text():
             return data
         except sr.UnknownValueError:
             print("Not Understood")
-            return ""  # Return an empty string or any default value
+            return ""
 
 
 def text_to_speech(x):
